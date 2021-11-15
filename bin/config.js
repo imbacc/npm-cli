@@ -5,7 +5,7 @@ const cliConfig = {
 }
 
 const createConfig = {
-	wrapLoading_fail: '失败原因：wifi密码错误...', // fail loading
+	wrapLoading_fail: '失败...', // fail loading
 	download_tips: '在下载模板莫急...', // waiting download template
 	getRepo_tips: '获取仓库信息...', // waiting fetch template
 	getRepo_prompt_message: '请选择个模板拉取：', // Please choose a template to create project
@@ -17,6 +17,7 @@ const createConfig = {
 const generatorConfig = {
 	create_repo_tips: '获取仓库信息失败!',
 	create_tag_tips: '获取版本标签失败!',
+	create_download_tips: '下载失败!',
 }
 
 // https://api.github.com/users/<github user>
