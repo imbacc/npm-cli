@@ -1,7 +1,7 @@
 {
-	"name": "@imbacc/npm-cli",
+	"name": "imba-cli",
 	"version": "1.0.0",
-	"description": "npm-cli",
+	"description": "npm-cli imba-cli",
 	"bin": {
 		"imba": "./bin/cli.js"
 	},

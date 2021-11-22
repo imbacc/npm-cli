@@ -12,42 +12,28 @@ npm link
 第二步，完善 package.json 中的配置
 
 ```
-{
-"name": "@imbacc/uni-cli",
-"version": "1.0.4",
-"description": "",
-"main": "index.js",
-"bin": {
-    "zr": "./bin/cli.js"
-},
-"scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-},
-"files": [
-    "bin",
-    "lib"
-],
-"author": {
-    "name": "T-Roc",
-    "email": "lxp_work@163.com"
-},
-"keywords": [
-    "zhurong-cli",
-    "zr",
-    "脚手架"
-],
-"license": "MIT",
-    "dependencies": {
-        "axios": "^0.21.1",
-        "chalk": "^4.1.1",
-        "commander": "^7.2.0",
-        "download-git-repo": "^3.0.2",
-        "figlet": "^1.5.0",
-        "fs-extra": "^10.0.0",
-        "inquirer": "^8.0.0",
-        "ora": "^5.4.0"
-    }
-}
+"name": "imba-cli",
+ "version": "1.0.0",
+ "description": "npm-cli imba-cli",
+ "bin": {
+  "imba": "./bin/cli.js"
+ },
+ "keywords": [
+  "脚手架"
+ ],
+ "author": "imbacc",
+ "license": "ISC",
+ "dependencies": {
+  "axios": "^0.24.0",
+  "chalk": "^4.1.2",
+  "commander": "^8.3.0",
+  "download-git-repo": "^3.0.2",
+  "figlet": "^1.5.2",
+  "fs-extra": "^10.0.0"
+ },
+ "devDependencies": {
+  "inquirer": "^8.2.0"
+ }
 ```
 
 第三步，使用 npm publish 进行发布，更新到时候，注意修改版本号
